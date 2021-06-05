@@ -1,3 +1,4 @@
+
 f = 10
 r = 10.5
 j = 13.7
@@ -9,7 +10,7 @@ else:
     print("r == j")
 
 
-
+# первое задание
 g = 2**3
 q = 3**2
 if g > q:
@@ -17,14 +18,14 @@ if g > q:
 else:
     print(q)
 
-
+# втарое задание
 s = -50
 if (s > 0 and s < 22) or (s > 56 and s < 100):
     print('разрешенное')
 else:
     print('запрещенное')
 
-    
+# третье задание
 k = 29
 if (k / 2):
     print('четное')
@@ -39,23 +40,23 @@ if (k ** 2 > 1000):
 else:
     print('folse')
 
-
+# четвертое задание
 print('helo world')
 
-
+# пятое задание
 a = 10 // 5
 b = 10 / 5
 c = a + b
 if a == b:
     print(c)
-
+# шестое задание
 l = -1
 if(l < 0):
     print(l)
 else:
     print('folse')
 
-
+# восьмое задание 
 u = 10
 p = -6
 if (u and p) > 0:
@@ -67,14 +68,21 @@ if u > p:
 else:
     print(p + 2)
 
-
+# седьмое задание
 z = int(input('введите число'))
 if (z > 0):
     print('положительное число')
 else:
     print('отрицательное число')
+    
+# девятое задание
+l = 0
+if(l > 0):
+    print(l)
+else:
+    print('folse')
 
-
+# десятое задание
 w = int(input('сколько тебе лет'))
 if w > 18:
     print('ты большой')
@@ -83,16 +91,15 @@ if w < 18 and w > 14:
 else:
     print('ребёнок')
 
-
+# одиннадцатое задание
 n = 45
 t = 6
-m = n / t
-if m / 2:
+if n % t == 0:
     print('делится')
 else:
     print('не делится')
 
-
+# двеннадцатое задание
 p = int(input('введите год'))
 if p < 2021:
     print('этот год прошол')
@@ -118,6 +125,17 @@ elif b < c and b < a:
     print(b)
 else:
     print(c)
+    
+
+a = 17391
+b = 546
+c = 934
+f = a % 17
+d = b % 17
+s = c % 17
+print(f, d, s)
+
+    
 
 
 x = 13
